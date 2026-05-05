@@ -74,4 +74,7 @@ private:
 
 };
 
-int main() {}
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+}
