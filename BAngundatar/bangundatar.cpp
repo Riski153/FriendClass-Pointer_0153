@@ -61,6 +61,11 @@ private:
      float keliling() {
         return 4 * sisi;
     }
+    void output() {
+        cout << "\nBelah Ketupat:" << endl;
+        cout << "Luas = " << luas() << endl;
+        cout << "Keliling = " << keliling() << endl;
+    }
 
 
 };
