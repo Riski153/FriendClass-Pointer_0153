@@ -20,5 +20,8 @@ private:
         cin >> b;
     }
 
+    float luas() {
+        return 0.5 * d1 * d2;
+    }
 
 };
