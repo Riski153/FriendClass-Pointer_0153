@@ -87,4 +87,6 @@ int main() {
       // akses friend method
     cout << "\nKeliling Layang-Layang (diakses dari BelahKetupat): "
          << b.ambilKelilingLayang(l) << endl;
+
+    return 0;
 }
