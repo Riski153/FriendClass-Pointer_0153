@@ -34,4 +34,7 @@ private:
         cout << "Keliling = " << keliling() << endl;
     }
 
+     // friend method dari BelahKetupat
+    friend float BelahKetupat::ambilKelilingLayang(LayangLayang &l);
+
 };
