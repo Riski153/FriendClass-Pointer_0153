@@ -38,3 +38,10 @@ private:
     friend float BelahKetupat::ambilKelilingLayang(LayangLayang &l);
 
 };
+
+class BelahKetupat {
+private:
+    float d1, d2; // diagonal
+    float sisi;
+    
+};
