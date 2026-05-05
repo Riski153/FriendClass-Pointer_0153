@@ -67,5 +67,9 @@ private:
         cout << "Keliling = " << keliling() << endl;
     }
 
+     // method yang jadi friend
+    float ambilKelilingLayang(LayangLayang &l) {
+        return l.keliling(); // akses dari LayangLayang
+    }
 
 };
