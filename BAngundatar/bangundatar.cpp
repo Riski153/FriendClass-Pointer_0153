@@ -28,4 +28,10 @@ private:
         return 2 * (a + b);
     }
 
+    void output() {
+        cout << "\nLayang-Layang:" << endl;
+        cout << "Luas = " << luas() << endl;
+        cout << "Keliling = " << keliling() << endl;
+    }
+
 };
