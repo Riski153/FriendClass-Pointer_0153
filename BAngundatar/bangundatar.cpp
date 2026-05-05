@@ -73,3 +73,5 @@ private:
     }
 
 };
+
+int main() {}
