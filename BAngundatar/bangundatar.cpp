@@ -8,4 +8,17 @@ private:
     float d1, d2; // diagonal
     float a, b;   // sisi
 
+    public:
+    void input() {
+        cout << "Input diagonal 1 Layang-Layang: ";
+        cin >> d1;
+        cout << "Input diagonal 2 Layang-Layang: ";
+        cin >> d2;
+        cout << "Input sisi a: ";
+        cin >> a;
+        cout << "Input sisi b: ";
+        cin >> b;
+    }
+
+
 };
