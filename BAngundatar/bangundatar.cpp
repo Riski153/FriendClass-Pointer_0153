@@ -83,4 +83,8 @@ int main() {
 
     b.input();
     b.output();
+
+      // akses friend method
+    cout << "\nKeliling Layang-Layang (diakses dari BelahKetupat): "
+         << b.ambilKelilingLayang(l) << endl;
 }
